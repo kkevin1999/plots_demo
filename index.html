@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>plots</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Plotly Js -->
+   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+   <!-- our CSS file -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="plots"></div>
+    <select id="selDataset" onchange="changePlot(this.value)"></select>
+    
+    
+    <!-- our JS file -->
+    <script type="text/javascript" src="plot.js"></script>
+</body>
+</html>
